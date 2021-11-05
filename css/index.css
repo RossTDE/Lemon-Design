@@ -1,0 +1,211 @@
+body {
+	margin: 0 auto;
+	padding: 0 auto;
+	background-color: white;
+}
+h5 {
+	margin: auto;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	color: white;
+}
+p {
+	color: white;
+}
+
+/* - - - - - - Раздел 1 - - - - - - */
+
+#Menu {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	padding: 5px 0;
+	text-align: center; /*выравнивание содержимого блока по центру*/
+	line-height: 45px; /*высота строки*/
+	background-color: rgba(0, 0, 0, 0.8);
+	background-size: fixed;
+	-webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+	opacity: 1;
+	z-index: 99;
+}
+	#Menu ul {/*обращение к подклассу ul*/
+		padding: 0;
+		margin: 0;
+	}
+		#Menu li {
+			display: inline-block; /*вертикальный список превращает в горизонтальный*/
+			vertical-align: middle;
+			font-size: 18px;
+			font-weight: 400;
+			text-align: center;
+		}
+			#Menu li a {/*параметра текста*/
+				padding: 5px 50px; /*первое число - оступ сверху/снизу; второе число - оступ слева/справа*/
+				color: white;
+			  width: 20%;
+				text-decoration: none; /*очищает стандартный вид ссылки*/
+				font-family: 'Montserrat', sans-serif;
+				transition: all, 0.5s;
+			}
+			#Menu li a:hover { /*текст при наведении мышкой*/
+				padding: 5px 50px;
+				width: 20%;
+				color: #6E6E6E;
+				text-decoration: none; /*очищает стандартный вид ссылки*/
+				font-family: 'Montserrat', sans-serif;
+			}
+
+/* - - - - - - Раздел 2 - - - - - - */
+
+#General {
+	 margin-top: 0px;
+	 height: 0px;
+	 width: 100%;
+	 padding-top: 0px;
+	 padding-bottom: 0px;
+	 background: black;
+	 background-position: center;
+	 background-size: cover;
+	 text-align: center;
+}
+
+/* - - - - - - Раздел 3 - - - - - - */
+
+#Product1 {
+	margin: 0px;
+	height: 100%;
+	width: 100%;
+	padding-top: 75px;
+	background: #121212;
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+}
+	#Product1 h1 {
+		margin: 0px;
+		padding: 0px;
+		font-family: 'Montserrat', sans-serif;
+		font-weight: 600;
+		text-align: center;
+		font-size: 75px;
+		color: white;
+	}
+	#Product1 h2 {
+		margin-top: 10px;
+		padding-top: 0px;
+		font-family: 'Montserrat', sans-serif;
+		font-weight: 400;
+		text-align: center;
+		font-size: 30px;
+		color: white;
+	}
+	#Buttons {
+		width: 100%;
+		margin: 0 auto;
+		text-align: center;
+	  padding: 0px;;
+	}
+	#Buttons a{
+		text-decoration: none;
+	}
+	.button {
+		transition: all 0.5s;
+		display: inline-block;
+		text-align: center;
+		margin: 10px;
+		padding: 10px;
+		padding-top: 19px;
+		height: 30px;
+		width: 220px;
+		background: url('../img/Interface/Button_Shape.png');
+		background-size: cover;
+	}
+	.button h5 {
+		margin: auto;
+		font-family: 'Montserrat', sans-serif;
+		font-weight: 400;
+		font-size: 18px;
+		color: white;
+	}
+	.button:hover {
+		transition: all 0.5s;
+		display: inline-block;
+		text-align: center;
+		margin: 10px;
+		padding: 10px;
+		padding-top: 19px;
+		height: 30px;
+		width: 220px;
+		background: url('../img/Interface/Button_Shape2.png');
+		background-size: cover;
+	}
+	.button:hover h5{
+		margin: auto;
+		font-family: 'Montserrat', sans-serif;
+		font-weight: 400;
+		font-size: 18px;
+		color: black;
+	}
+
+/* - - - - - - Раздел 4 - - - - - - */
+
+#ALL_prod {
+	width: 100%;
+	margin-top: 55px;
+	text-align: center;
+  padding: 0px;
+}
+	#ALL_prod h1 {
+		margin: 0px;
+		padding-bottom: 50px;
+		font-family: 'Montserrat', sans-serif;
+		font-weight: 600;
+		text-align: center;
+		font-size: 75px;
+		color: black;
+	}
+	#ALL_prod a {
+		text-decoration: none;
+	}
+	.prod {
+		transition: all 0.5s;
+		margin: 6px;
+		height: 100;
+		padding: 0px;
+		width: 31%;
+		display: inline-block;
+		background: #F6F6F8;
+		border-radius: 10px;
+	}
+	.prod:hover {
+		transition: all 0.5s;
+		margin: 6px;
+		height: 100%;
+		padding: 0px;
+		width: 31%;
+		display: inline-block;
+		background: #F6F6F8;
+		border-radius: 10px;
+		box-shadow: 0 0 20px rgba(0,0,0,0.2);
+	}
+
+
+#Video{
+	margin: 0 auto;
+	padding-top: 40px;
+	width: 100%;
+	background: url(https://www.youtube.com/watch?v=Eyz_zLxESB4&t=14s);
+}
+
+
+#About {
+	margin: 0 auto;
+	width: 100%;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	background: url('../img/3.jpg') 50% 50%;
+	background-size: cover;
+}

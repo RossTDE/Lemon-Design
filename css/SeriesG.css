@@ -1,0 +1,104 @@
+body {
+  background: url(../img/Backgrounds/Black_logo.jpg) no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.Block {
+	background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+  font-family: sans-serif;
+  text-align: center;
+  line-height: 1;
+ -webkit-backdrop-filter: blur(15px);
+  backdrop-filter: blur(15px);
+  padding: 20px 40px;
+	width: 100vh;
+	height: 50vh;
+}
+
+h5 {
+	margin: auto;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	color: white;
+}
+p {
+	color: white;
+}
+
+/* - - - - - - Раздел 1 - - - - - -
+
+#Menu {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	padding: 5px 0;
+	text-align: center; /*выравнивание содержимого блока по центру
+	line-height: 45px; /*высота строки
+	background: white;
+	background-size: fixed;
+	opacity: 1;
+	z-index: 99;
+}
+	#Menu ul {/*обращение к подклассу ul
+		padding: 0;
+		margin: 0;
+	}
+		#Menu li {
+			display: inline-block; /*вертикальный список превращает в горизонтальный
+			vertical-align: middle;
+			font-size: 18px;
+			font-weight: 400;
+			text-align: center;
+		}
+			#Menu li a {/*параметра текста
+				padding: 5px 50px; /*первое число - оступ сверху/снизу; второе число - оступ слева/справа
+				color: black;
+			  width: 20%;
+				text-decoration: none; /*очищает стандартный вид ссылки
+				font-family: 'Montserrat', sans-serif;
+				transition: all, 0.5s;
+			}
+			#Menu li a:hover { /*текст при наведении мышкой
+				padding: 5px 50px;
+				width: 20%;
+				color: #6E6E6E;
+				text-decoration: none; /*очищает стандартный вид ссылки
+				font-family: 'Montserrat', sans-serif;
+			}
+
+/* - - - - - - Раздел 2 - - - - - -
+
+#Menu2 {
+  height: auto;
+	width: 100%;
+  margin-top: 55px;
+  text-align: center;
+  padding: 0px;
+  background-color: #F6F6F8;
+}
+#Menu2 a {
+  text-decoration: none;
+}
+  .Model a {
+    color: black;
+    text-decoration: none; /*очищает стандартный вид ссылки
+    font-family: 'Montserrat', sans-serif;
+  }
+	.Model {
+    margin-bottom: 5px;
+    margin-top: 8px;
+		margin-left: 35px;
+    margin-right: 35px;
+		padding: 0px;
+    width: 14vh;
+		display: inline-block;
+  }
+*/
